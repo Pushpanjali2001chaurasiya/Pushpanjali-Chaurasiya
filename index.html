@@ -24,7 +24,7 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Project</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
@@ -247,8 +247,8 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="https://api.web3forms.com/submit" method="POST">
-                            <input type="hidden" name="access_key" value="fb5d0fa3-ac54-4848-b65d-15e32da32cc5">
+                    <!-- <form method="POST" action="https://api.web3forms.com/submit" >
+                        <input type="hidden" name="access_key" value="fb5d0fa3-ac54-4848-b65d-15e32da32cc5"/>
 
                         <div class="fields">
                             <div class="field name">
@@ -267,7 +267,98 @@
                         <div class="button-area">
                             <button type="submit">Send message</button>
                         </div>
-                    </form>
+                    </form> -->
+
+
+
+                    <!-- demoooooooooooooooooooooooooooooooooooooo -->
+
+
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <style>
+                    body {font-family: Arial, Helvetica, sans-serif;}
+                    * {box-sizing: border-box;}
+                    
+                    input[type=text], select, textarea {
+                      width: 100%;
+                      padding: 12px;
+                      border: 1px solid #ccc;
+                      border-radius: 4px;
+                      box-sizing: border-box;
+                      margin-top: 6px;
+                      margin-bottom: 16px;
+                      resize: vertical;
+                    }
+                    
+                    input[type=submit] {
+                      background-color: #04AA6D;
+                      color: white;
+                      padding: 12px 20px;
+                      border: none;
+                      border-radius: 4px;
+                      cursor: pointer;
+                    }
+                    
+                    input[type=submit]:hover {
+                      background-color: #45a049;
+                    }
+                    
+                    .container {
+                      border-radius: 5px;
+                      background-color: #f2f2f2;
+                      padding: 20px;
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    
+                    <div class="container">
+                      <form method="post" action="https://api.web3forms.com/submit">
+                        <input type="hidden" name="access_key" value="fb5d0fa3-ac54-4848-b65d-15e32da32cc5" > 
+                        
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                        </select>
+                    
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                      </form>
+                    </div>
+                    
+                    </body>
+                    </html>
+                    
+                    <!-- <div class="col-lg-8 mt-5 mt-lg-0">
+
+                        <form  method="post" action="https://api.web3forms.com/submit" >
+                         
+                           <input type="hidden" name="access_key" value="fb5d0fa3-ac54-4848-b65d-15e32da32cc5" > 
+                          <div class="row">
+                            <div class="col-md-6 form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                          </div>
+                          <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                          </div>
+                          <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                          </div>
+                         
+                          <div class="text-center"><button type="submit" class="btn btn-primary mt-4" data-toggle="button" aria-pressed="false" autocomplete="off">Send Message</button></div>
+                        </form>
+                
+                      </div> -->
                 </div>
             </div>
         </div>
